@@ -69,7 +69,7 @@ Webaverse NFTs are located here: [https://opensea.io/assets/asset-v3?search[chai
 
 ### Sell on Opensea
 
-In order to sell your [items](/website/docs/webaverse/items.md) on [Opensea](https://opensea.io) you need to transfer it to another chain such as Polygon or Ethereum mainnet. 
+In order to sell your [items](../webaverse/items.md) on [Opensea](https://opensea.io) you need to transfer it to another chain such as Polygon or Ethereum mainnet. 
 
 1. Login to [Webaverse.com](https://webaverse.com/) (could also type `.login` on Discord)
 2. Go to the item asset page (can click on your profile)
