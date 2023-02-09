@@ -2,10 +2,10 @@ module.exports = {
   title: "TON Metaspace",
   staticDirectories: ["static"],
   tagline: "TON Metaspace",
-  url: "https://docs.tonmetaspace.org",
+  url: "https://tonmetaspace.github.io/doc",
   baseUrl: "/",
   organizationName: "tonmetaspace",
-  projectName: "docs",
+  projectName: "doc",
   favicon: "img/webaverse-white.ico",
   customFields: {},
   onBrokenLinks: "throw",
@@ -15,7 +15,7 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          routeBasePath: "/docs/", // Serve the docs at the site's root
+          routeBasePath: "/doc/", // Serve the docs at the site's root
           showLastUpdateAuthor: false,
           showLastUpdateTime: false,
           sidebarPath: require.resolve("./sidebars.js")
@@ -33,7 +33,7 @@ module.exports = {
       title: "TON Metaspace",
       logo: {
         src: "img/webaverse-lg.png",
-        href: "https://docs.tonmetaspace.org/",
+        href: "https://tonmetaspace.github.io/doc",
         target: "_self",
       },
       items: [
