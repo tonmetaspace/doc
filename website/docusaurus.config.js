@@ -2,7 +2,7 @@ module.exports = {
   title: "TON Metaspace",
   staticDirectories: ["static"],
   tagline: "TON Metaspace",
-  url: "https://tonmetaspace.github.io/doc",
+  url: "https://tonmetaspace.github.io",
   baseUrl: "/",
   organizationName: "tonmetaspace",
   projectName: "doc",
