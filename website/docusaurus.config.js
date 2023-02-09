@@ -1,10 +1,10 @@
 module.exports = {
-  title: "Webaverse",
+  title: "TON Metaspace",
   staticDirectories: ["static"],
-  tagline: "Webaverse",
-  url: "https://docs.webaverse.com",
+  tagline: "TON Metaspace",
+  url: "https://docs.tonmetaspace.org",
   baseUrl: "/",
-  organizationName: "webaverse",
+  organizationName: "tonmetaspace",
   projectName: "docs",
   favicon: "img/webaverse-white.ico",
   customFields: {},
@@ -15,7 +15,7 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          routeBasePath: "/", // Serve the docs at the site's root
+          routeBasePath: "/doc/", // Serve the docs at the site's root
           showLastUpdateAuthor: false,
           showLastUpdateTime: false,
           sidebarPath: require.resolve("./sidebars.js")
@@ -30,10 +30,10 @@ module.exports = {
   plugins: [],
   themeConfig: {
     navbar: {
-      title: "Webaverse",
+      title: "TON Metaspace",
       logo: {
         src: "img/webaverse-lg.png",
-        href: "https://docs.webaverse.com/",
+        href: "https://docs.tonmetaspace.org/",
         target: "_self",
       },
       items: [
@@ -49,13 +49,13 @@ module.exports = {
           title: "Community",
           items: [
             {
-              label: "Discord",
-              href: "https://discord.gg/HxdjCDyq58",
+              label: "Telegram",
+              href: "https://t.me/tonmetaspace",
             },
             {
               label: "Github",
               // A full-page navigation, used for navigating outside of the website.
-              href: "https://github.com/webaverse",
+              href: "https://github.com/tonmetaspace",
             },
           ],
         },
@@ -68,12 +68,12 @@ module.exports = {
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/webaverse",
+              href: "https://twitter.com/tonnmetaspace",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Webaverse`,
+      copyright: `Copyright © ${new Date().getFullYear()} TON Metaspace`,
     },
   },
 };
