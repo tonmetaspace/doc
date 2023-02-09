@@ -27,7 +27,15 @@ module.exports = {
       },
     ],
   ],
-  plugins: [],
+  plugins: [
+    [
+      "docusaurus-graphql-plugin",
+      {
+        // can be a path, a glob or an URL
+        schema: "schema.graphql",
+      },
+    ],
+  ],
   themeConfig: {
     navbar: {
       title: "TON Metaspace",
