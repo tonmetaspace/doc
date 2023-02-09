@@ -15,7 +15,7 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          routeBasePath: "/doc/", // Serve the docs at the site's root
+          routeBasePath: "", // Serve the docs at the site's root
           showLastUpdateAuthor: false,
           showLastUpdateTime: false,
           sidebarPath: require.resolve("./sidebars.js")
