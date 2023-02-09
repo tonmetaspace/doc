@@ -3,7 +3,7 @@ module.exports = {
   staticDirectories: ["static"],
   tagline: "TON Metaspace",
   url: "https://tonmetaspace.github.io",
-  baseUrl: "/",
+  baseUrl: "/doc/",
   organizationName: "tonmetaspace",
   projectName: "doc",
   favicon: "img/webaverse-white.ico",
@@ -15,7 +15,7 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          routeBasePath: "/doc", // Serve the docs at the site's root
+          routeBasePath: "website/docs", // Serve the docs at the site's root
           showLastUpdateAuthor: false,
           showLastUpdateTime: false,
           sidebarPath: require.resolve("./sidebars.js")
